@@ -11,6 +11,6 @@
     <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="13.5.1" />
     <PackageReference Include="HotChocolate.Data.MongoDb" Version="13.5.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
-  </ItemGroup>
+  </ItemGroup> 
 
 </Project>

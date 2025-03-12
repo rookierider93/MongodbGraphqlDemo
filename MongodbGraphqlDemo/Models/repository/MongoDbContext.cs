@@ -4,7 +4,8 @@ namespace MongodbGraphqlDemo.Models.repository
 {
     public class MongoDbContext
     {
-        private readonly IMongoDatabase _database;
+        private readonly IMongoDatabase _database; 
+
 
         public MongoDbContext(IConfiguration configuration)
         {

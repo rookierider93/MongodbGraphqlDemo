@@ -7,7 +7,8 @@ namespace MongodbGraphqlDemo.Schema
     {
         public bool addProduct([Service] MongoDbContext dbContext,Product entity)
         {
-            dbContext.AddProducts(entity);
+            //Commented
+            dbContext.AddProducts(entity); 
             return true;
         }
     }

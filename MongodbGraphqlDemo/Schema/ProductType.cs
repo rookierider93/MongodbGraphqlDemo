@@ -9,6 +9,7 @@ namespace MongodbGraphqlDemo.Schema
             descriptor.Field(p => p.Id).Type<IdType>();
             descriptor.Field(p => p.Name).Type<StringType>();
             // Define other fields and relationships here
+            //Commented
         }
     }
 }

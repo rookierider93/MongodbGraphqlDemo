@@ -10,6 +10,7 @@ namespace MongodbGraphqlDemo.Schema
         {
             // Convert IMongoCollection<Product> to IQueryable<Product>
             return dbContext.Products.AsQueryable();
+            //Commented
         }
     }
 }

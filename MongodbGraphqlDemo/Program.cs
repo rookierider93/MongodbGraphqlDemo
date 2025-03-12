@@ -13,6 +13,7 @@ builder.Services.AddGraphQL()
     .AddMongoDbFiltering()
     .AddMongoDbSorting();
 var app = builder.Build();
+//Commented
 
 app.MapGraphQL("/graphql");
 app.Run();
